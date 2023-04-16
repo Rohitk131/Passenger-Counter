@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-family: poppins;
+  background-image: url(https://img.freepik.com/premium-photo/abstract-light-blue-white-blur-background_469558-9599.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+.mainBody {
+  border: 0.3ch solid black;
+  border-radius: 20px;
+  position: absolute;
+  padding: 50px;
+  text-align: center;
+  max-width: 80%;
+  width: 30%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: gainsboro;
+}
+.sub {
+  display: grid;
+  gap: 25px;
+  justify-content: center;
+}
+button {
+  box-sizing: border-box;
+  align-items: center;
+  width: 250px;
+  font-size: large;
+  border-radius: 10px;
+  padding: 10px;
+  
+}
+#count {
+  font-size: 50px;
+}
+.one {
+  background-color: tomato;
+  box-shadow: 5px 8px 25px 0.1px lightcoral
+}
+.two {
+  background-color: cornflowerblue;
+  box-shadow: 5px 8px 25px 0.1px lightskyblue
+}
+.three{
+
+  border: none;
+  cursor: pointer;
+  appearance: none;
+  background-color: inherit;
+  width: 70px;
+  height: 70px;
+  margin-left: 36%;
+  box-shadow: 5px 8px 25px 0.1px grey
+}
+
+button:active {
+  transform: scale(0.90);
+  box-shadow: 3px 2px 22px 1px grey
+}
+
